@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <title>Weather Dashboard</title>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<script>
+        function autoRefresh() {
+            window.location = window.location.href;
+        }
+        setInterval('autoRefresh()', 300000);
+    </script>
+	<style type="text/css">
+body { 
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
+}
+</style>
+  </head> 
+  <div class="main-container">
+  <div class="header-container">
+  <h1 class="header">Weather Dashboard</h1>
+  </div>
+   <div class="footer">
+  <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:450px;height:165px;"src="https://www.clocklink.com/html5embed.php?clock=044&timezone=EST&color=white&size=450&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=white"></iframe>
+  </div>
+  <div class="weather-container">
+  <div class="space-container"> 
+  <div class="sat-head"> <h3>Satelite-USA</h3></div>
+	<div class="sat-container">
+	 <img class="sat" src="https://cdn.star.nesdis.noaa.gov/GOES16/GLM/CONUS/EXTENT3/GOES16-CONUS-EXTENT3-625x375.gif"></img>
+	</div>
+	<div class ="spc"><h3 class="spc">Day 1 SPC</h3></div>
+	<div class="spc1-container">
+		 <img class="spc1" src="https://www.spc.noaa.gov/partners/outlooks/state/images/NJ_swody1.png?1721160066"></img>
+
+	</div>
+  </div>
+ <div class="radar-container">
+ <div class="radar-head">KDIX RADAR</div>
+ <img class="radar" src="https://radar.weather.gov/ridge/standard/KDIX_loop.gif?c=" alt="KDIX Radar Loop"> </img> </div>
+<div ="forcast-container"> <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-98775410-a731-4a9f-ace8-339c9d1f9f1e" data-elfsight-app-lazy></div></div>
+  </div> 
+  </div>
+</html>
+
+	

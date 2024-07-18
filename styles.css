@@ -1,0 +1,53 @@
+.main-container {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	background-color:black;
+	color:#c0c0c0;
+	text-shadow:1px 1px 2px #c0c0c0;
+}
+.header-container {
+	display:flex;
+	justify-content:center;
+}
+.header {
+	margin:0;
+}
+
+.weather-container {
+	display:flex;
+	justify-content:space-evenly;
+	}
+.space-container {
+	display:flex;
+	align-content:center;
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+.spc1, .sat {
+	height:275px;
+	width:275px;
+	border:solid;
+	border-color:#C0C0C0;
+	border-radius:360px;
+	
+}
+/*.space-container, .radar-container, .forecast-container {
+	border:solid;
+	border-color:red;*/
+}
+
+.spc {
+
+}
+.radar {
+	border:solid;
+	border-color:silver;
+	border-radius:25px;
+	height:650px;
+	width:650px;
+}
+.footer {
+	display:flex;
+	justify-content:center;
+}
